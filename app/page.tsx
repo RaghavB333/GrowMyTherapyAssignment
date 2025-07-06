@@ -112,7 +112,7 @@ export default function Home() {
       )}
 
       {/* Hero FadeInSection */}
-      <FadeInSection className="relative w-full h-screen overflow-hidden bg-[#f3f1e9]">
+      <FadeInSection className="relative w-full min-h-screen overflow-hidden bg-[#f3f1e9]">
 
         <div className="w-full h-full px-4 md:px-10">
           <video
