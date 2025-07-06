@@ -238,7 +238,7 @@ export default function Home() {
           Therapy is you looking after you — one of the most meaningful acts of self-care.
         </FadeInSection>
         <FadeInSection delay={150} className="mt-10 sm:mt-12 md:mt-20 text-xl md:text-2xl lg:text-2xl leading-loose">
-          Whether you're navigating anxiety, depression, relationship challenges, trauma, grief, low self-worth, or family and parenting dynamics, therapy provides a supportive space to explore, heal, and grow. You don&apost have to carry it all alone. Together, we&aposll work toward lasting clarity, resilience, and emotional well-being.
+          Whether you&apos;re navigating anxiety, depression, relationship challenges, trauma, grief, low self-worth, or family and parenting dynamics, therapy provides a supportive space to explore, heal, and grow. You don&apos;t have to carry it all alone. Together, we&apos;ll work toward lasting clarity, resilience, and emotional well-being.
         </FadeInSection>
       </FadeInSection>
 
@@ -269,7 +269,7 @@ export default function Home() {
               </FadeInSection>
               <FadeInSection delay={450} className="text-lg md:text-xl leading-relaxed">
                 Learn how to manage overwhelming thoughts, regulate your nervous system,
-                and build resilience in the face of daily pressures. Together, we&aposll create practical tools and deeper insight to help you feel more grounded and in control.
+                and build resilience in the face of daily pressures. Together, we&apos;ll create practical tools and deeper insight to help you feel more grounded and in control.
               </FadeInSection>
             </div>
 
@@ -286,7 +286,7 @@ export default function Home() {
                 Relationship Counseling
               </FadeInSection>
               <FadeInSection delay={450} className="text-lg md:text-xl leading-relaxed">
-                Whether you're navigating romantic relationships, friendships, or family dynamics,
+                Whether you&apos;re navigating romantic relationships, friendships, or family dynamics,
                 therapy can help you improve communication, set boundaries, and foster meaningful, supportive connections.
               </FadeInSection>
             </div>
@@ -304,8 +304,8 @@ export default function Home() {
                 Trauma Recovery
               </FadeInSection>
               <FadeInSection delay={450} className="text-lg md:text-xl leading-relaxed">
-                If you've experienced trauma—past or recent—therapy offers a compassionate space
-                to begin healing. We&aposll work together to rebuild safety, process difficult emotions, and restore a sense of empowerment and peace.
+                If you&apos;ve experienced trauma—past or recent—therapy offers a compassionate space
+                to begin healing. We&apos;ll work together to rebuild safety, process difficult emotions, and restore a sense of empowerment and peace.
               </FadeInSection>
             </div>
 
@@ -323,7 +323,7 @@ export default function Home() {
           For Every Individual Session : $200
         </FadeInSection>
         <FadeInSection delay={300} className="pt-5 pb-10 text-xl">
-          For Every Couples' Session : $240
+          For Every Couples&apos; Session : $240
         </FadeInSection>
 
 
@@ -360,7 +360,7 @@ export default function Home() {
             title="What is your cancellation policy?"
             className="text-lg"
           >
-            I require at least 24 hours&apos notice for cancellations. Late cancellations or missed appointments may result in a cancellation fee.
+            I require at least 24 hours&apos; notice for cancellations. Late cancellations or missed appointments may result in a cancellation fee.
           </AccordionItem>
         </Accordion>
       </FadeInSection>
