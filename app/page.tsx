@@ -43,7 +43,7 @@ export default function Home() {
     agree: false,
   });
 
- 
+
   //comntact form data and error handling
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
@@ -144,7 +144,7 @@ export default function Home() {
             SCHEDULE A CONSULTATION
           </button>
         </FadeInSection>
-        
+
       </FadeInSection>
       {/* about */}
       <FadeInSection className="py-16 px-6 sm:px-10">
@@ -238,7 +238,7 @@ export default function Home() {
           Therapy is you looking after you — one of the most meaningful acts of self-care.
         </FadeInSection>
         <FadeInSection delay={150} className="mt-10 sm:mt-12 md:mt-20 text-xl md:text-2xl lg:text-2xl leading-loose">
-          Whether you're navigating anxiety, depression, relationship challenges, trauma, grief, low self-worth, or family and parenting dynamics, therapy provides a supportive space to explore, heal, and grow. You don’t have to carry it all alone. Together, we’ll work toward lasting clarity, resilience, and emotional well-being.
+          Whether you're navigating anxiety, depression, relationship challenges, trauma, grief, low self-worth, or family and parenting dynamics, therapy provides a supportive space to explore, heal, and grow. You don&apost have to carry it all alone. Together, we&aposll work toward lasting clarity, resilience, and emotional well-being.
         </FadeInSection>
       </FadeInSection>
 
@@ -269,7 +269,7 @@ export default function Home() {
               </FadeInSection>
               <FadeInSection delay={450} className="text-lg md:text-xl leading-relaxed">
                 Learn how to manage overwhelming thoughts, regulate your nervous system,
-                and build resilience in the face of daily pressures. Together, we’ll create practical tools and deeper insight to help you feel more grounded and in control.
+                and build resilience in the face of daily pressures. Together, we&aposll create practical tools and deeper insight to help you feel more grounded and in control.
               </FadeInSection>
             </div>
 
@@ -305,7 +305,7 @@ export default function Home() {
               </FadeInSection>
               <FadeInSection delay={450} className="text-lg md:text-xl leading-relaxed">
                 If you've experienced trauma—past or recent—therapy offers a compassionate space
-                to begin healing. We’ll work together to rebuild safety, process difficult emotions, and restore a sense of empowerment and peace.
+                to begin healing. We&aposll work together to rebuild safety, process difficult emotions, and restore a sense of empowerment and peace.
               </FadeInSection>
             </div>
 
@@ -360,7 +360,7 @@ export default function Home() {
             title="What is your cancellation policy?"
             className="text-lg"
           >
-            I require at least 24 hours’ notice for cancellations. Late cancellations or missed appointments may result in a cancellation fee.
+            I require at least 24 hours&apos notice for cancellations. Late cancellations or missed appointments may result in a cancellation fee.
           </AccordionItem>
         </Accordion>
       </FadeInSection>
@@ -376,8 +376,9 @@ export default function Home() {
         <form onSubmit={handleSubmit} className="space-y-6 max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
           {/* Name */}
           <div>
-            <label className="block font-medium">Name *</label>
+            <label htmlFor="name" className="block font-medium">Name *</label>
             <input
+              id="name"
               name="name"
               type="text"
               value={formData.name}
@@ -389,8 +390,9 @@ export default function Home() {
 
           {/* Phone */}
           <div>
-            <label className="block font-medium">Phone *</label>
+            <label htmlFor="phone" className="block font-medium">Phone *</label>
             <input
+              id="phone"
               name="phone"
               type="tel"
               value={formData.phone}
@@ -402,8 +404,9 @@ export default function Home() {
 
           {/* Email */}
           <div>
-            <label className="block font-medium">Email *</label>
+            <label htmlFor="email" className="block font-medium">Email *</label>
             <input
+              id="email"
               name="email"
               type="email"
               value={formData.email}
@@ -415,8 +418,9 @@ export default function Home() {
 
           {/* Message */}
           <div>
-            <label className="block font-medium">What brings you here? *</label>
+            <label htmlFor="message" className="block font-medium">What brings you here? *</label>
             <textarea
+              id="message"
               name="message"
               rows={4}
               value={formData.message}
@@ -428,8 +432,9 @@ export default function Home() {
 
           {/* Preferred Time */}
           <div>
-            <label className="block font-medium">Preferred time to reach you *</label>
+            <label htmlFor="preferredTime" className="block font-medium">Preferred time to reach you *</label>
             <input
+              id="preferredTime"
               name="preferredTime"
               type="text"
               value={formData.preferredTime}
@@ -443,6 +448,7 @@ export default function Home() {
           {/* Agreement */}
           <div className="flex items-center space-x-2">
             <input
+              id="agree"
               name="agree"
               type="checkbox"
               checked={formData.agree}
@@ -463,6 +469,7 @@ export default function Home() {
             Submit
           </button>
         </form>
+
       </FadeInSection>
 
 
