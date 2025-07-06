@@ -112,9 +112,9 @@ export default function Home() {
       )}
 
       {/* Hero FadeInSection */}
-      <FadeInSection className="relative w-full h-[110vh] bg-[#f3f1e9]">
+      <FadeInSection className="relative w-full h-screen overflow-hidden bg-[#f3f1e9]">
 
-        <div className="w-full h-[100vh] px-4 md:px-10">
+        <div className="w-full h-full px-4 md:px-10">
           <video
             ref={videoRef}
             src="/calm2.mp4"
@@ -126,11 +126,12 @@ export default function Home() {
           />
         </div>
 
+        <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
 
-        <div className="absolute h-[100vh] inset-0 bg-black bg-opacity-40 z-0 mx-4 md:mx-10" />
-
-        {/* content */}
-        <FadeInSection delay={150} className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 sm:px-10 z-10 gap-6">
+        <FadeInSection
+          delay={150}
+          className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6 sm:px-10 z-10 gap-6"
+        >
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
             Compassionate Psychological Support for
           </h1>
@@ -144,8 +145,10 @@ export default function Home() {
             SCHEDULE A CONSULTATION
           </button>
         </FadeInSection>
-
       </FadeInSection>
+
+
+
       {/* about */}
       <FadeInSection className="py-16 px-6 sm:px-10">
         <div className="max-w-7xl lg:ml-56 flex flex-col lg:flex-row items-center gap-20">
@@ -474,6 +477,6 @@ export default function Home() {
 
 
 
-    </main>
+    </main >
   );
 }
